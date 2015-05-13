@@ -38,7 +38,7 @@ function todotoday_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = 'Task';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
-  /* Field: Content: Due Date */
+  /* Field: Content: Due */
   $handler->display->display_options['fields']['field_due_date']['id'] = 'field_due_date';
   $handler->display->display_options['fields']['field_due_date']['table'] = 'field_data_field_due_date';
   $handler->display->display_options['fields']['field_due_date']['field'] = 'field_due_date';
@@ -53,7 +53,7 @@ function todotoday_views_default_views() {
   $handler->display->display_options['fields']['field_status']['id'] = 'field_status';
   $handler->display->display_options['fields']['field_status']['table'] = 'field_data_field_status';
   $handler->display->display_options['fields']['field_status']['field'] = 'field_status';
-  /* Sort criterion: Content: Due Date (field_due_date) */
+  /* Sort criterion: Content: Due (field_due_date) */
   $handler->display->display_options['sorts']['field_due_date_value']['id'] = 'field_due_date_value';
   $handler->display->display_options['sorts']['field_due_date_value']['table'] = 'field_data_field_due_date';
   $handler->display->display_options['sorts']['field_due_date_value']['field'] = 'field_due_date_value';

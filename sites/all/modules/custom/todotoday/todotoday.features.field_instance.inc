@@ -38,7 +38,7 @@ function todotoday_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_due_date',
-    'label' => 'Due Date',
+    'label' => 'Due',
     'required' => 0,
     'settings' => array(
       'default_value' => 'now',
@@ -106,7 +106,7 @@ function todotoday_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Due Date');
+  t('Due');
   t('Status');
 
   return $field_instances;
