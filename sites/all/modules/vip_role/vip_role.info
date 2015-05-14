@@ -1,0 +1,13 @@
+name = VIP role
+description = vip roles moves
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = menu
+dependencies[] = node
+features[features_api][] = api:2
+features[user_permission][] = administer menu
+features[user_permission][] = create todotoday_task content
+features[user_permission][] = delete own todotoday_task content
+features[user_permission][] = edit own todotoday_task content
+features[user_role][] = vip
