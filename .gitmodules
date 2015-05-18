@@ -4,3 +4,12 @@
 [submodule "sites/all/modules/custom/todotoday"]
 	path = sites/all/modules/custom/todotoday
 	url = https://github.com/moorebrett0/To-Do-List.git
+[submodule "sites/all/modules/pet"]
+	path = sites/all/modules/pet
+	url = https://github.com/tfmertz/pet_submodule.git
+[submodule "sites/all/modules/specials"]
+	path = sites/all/modules/specials
+	url = https://github.com/monkecheese/restaurant_specials_submodule.git
+[submodule "sites/all/modules/favorites"]
+	path = sites/all/modules/favorites
+	url = https://github.com/tfmertz/favorites_submodule.git

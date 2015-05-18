@@ -1,0 +1,38 @@
+<?php
+
+function cards_menu() {
+    $items = [];
+
+    $items['cards/name'] = [
+        'title' => 'Greetings Tom',
+        'page callback' => 'greet_tom',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM
+    ];
+
+    $items['cards/bryan'] = [
+        'title' => 'Greetings Bryan',
+        'page callback' => 'greet_bryan',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM
+    ];
+
+    return $items;
+
+}
+
+function greet_tom() {
+    return '
+        <p>Greetings, Admiral Tom F. Mertz</p>
+        <script>
+            document.body.style["-webkit-transform"] = "rotate(180deg)";
+            console.log("hello nerds");
+        </script>
+    ';
+}
+
+function greet_bryan() {
+    return '
+        <p>Greetings, Admiral Bryan</p>
+    ';
+}
