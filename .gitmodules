@@ -13,3 +13,6 @@
 [submodule "sites/all/modules/favorites"]
 	path = sites/all/modules/favorites
 	url = https://github.com/tfmertz/favorites_submodule.git
+[submodule "sites/all/modules/comment_buddy"]
+	path = sites/all/modules/comment_buddy
+	url = https://github.com/tfmertz/comment-buddy-module.git
