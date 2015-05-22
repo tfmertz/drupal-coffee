@@ -16,3 +16,9 @@
 [submodule "sites/all/modules/comment_buddy"]
 	path = sites/all/modules/comment_buddy
 	url = https://github.com/tfmertz/comment-buddy-module.git
+[submodule "sites/all/modules/custom/sum"]
+	path = sites/all/modules/custom/sum
+	url = https://github.com/tfmertz/sum-module.git
+[submodule "sites/all/modules/custom/pingpong"]
+	path = sites/all/modules/custom/pingpong
+	url = https://github.com/jillkuchman/ping_pong_module.git
