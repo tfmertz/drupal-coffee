@@ -1,0 +1,9 @@
+<?php
+    function recipe_form_alter(&$form, &$form_state, $form_id){
+        if ($form_id == 'recipe_node_form') {
+            $form['comment_settings']['#type'] = 'hidden';
+            $form['author']['#type'] = 'hidden';
+            $form['options']['#type'] = 'hidden';
+            $form['revision_information']['#type'] = 'hidden';
+        }
+    }

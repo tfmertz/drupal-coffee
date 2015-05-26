@@ -1,0 +1,5 @@
+name = Alter Recipe
+description = Remove all menu items except URL path settings
+package = Tom and Brett's Creations
+core = 7.x
+files[] = recipe.module
