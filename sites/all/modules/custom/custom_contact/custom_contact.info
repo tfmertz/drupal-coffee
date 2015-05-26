@@ -1,0 +1,5 @@
+name = Custom Contact
+description = Removes send yourself a copy and subject line from contact module.
+package = Tom and Brett's Creations
+core = 7.x
+files[] = custom_contact.module 
